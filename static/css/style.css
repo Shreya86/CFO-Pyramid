@@ -502,8 +502,8 @@ section {
 .services .card p {
   padding: 0 15px;
   margin-bottom: 30px;
-  color: var(--color-secondary);
-  font-size: 15px;
+  color: #696969;
+  font-size: 14px;
 }
 
 .services .card:hover .card-img img {
@@ -613,6 +613,7 @@ section {
 .faq .faq-list p {
   margin-bottom: 0;
   padding: 10px 0 0 30px;
+  font-size: 14px;
 }
 .faq .faq-list .icon-show {
   display: none;
