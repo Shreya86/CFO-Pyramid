@@ -511,6 +511,46 @@ section {
 }
 
 /*--------------------------------------------------------------
+# APP
+--------------------------------------------------------------*/
+#app{
+  padding-bottom: 0;
+}
+
+.app img{
+  max-width: 70%;
+}
+
+.app .content h3 {
+  font-size: 32px;
+    font-weight: 700;
+    position: relative;
+    color: #2e3135;
+}
+
+.app .content p {
+  font-size: 14px;
+  font-family: var(--font-secondary);
+  color: #696969;
+}
+
+.app .app_btn{
+  background: #ffc451;
+  border: 0;
+  padding: 10px 24px;
+  color: #151515;
+  transition: 0.4s;
+  border-radius: 4px;
+}
+
+.app .app_btn:hover{
+  background: #151515;
+  color: #fff;
+  transition: 0.4s;
+  
+}
+
+/*--------------------------------------------------------------
 # SECTORS
 --------------------------------------------------------------*/
 .sectors {
